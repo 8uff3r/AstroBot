@@ -5,7 +5,11 @@ micros:
     src: ./
     engine: nodejs16
     primary: true
+    run: node index.js
+    dev: node index.js
     presets:
       env:
         - name: BOT_TOKEN
         - name: ADMIN
+        - name: DEBUG
+          default: "grammy*"
