@@ -1,0 +1,11 @@
+# Spacefile Docs: https://go.deta.dev/docs/spacefile/v0
+v: 0
+micros:
+  - name: AstroBot
+    src: ./
+    engine: nodejs16
+    primary: true
+    presets:
+      env:
+        - name: BOT_TOKEN
+        - name: ADMIN
